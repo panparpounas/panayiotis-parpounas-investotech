@@ -1,0 +1,46 @@
+/*---------Header, Logo ---------*/
+#header {
+    z-index: 120;
+    background-color: #121212;
+    margin-bottom: 5rem;
+}
+
+.navbar-brand #logo {
+    width: 150px;
+}
+
+.navbar-toggler {
+    border-color: #fff;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7481%) hue-rotate(312deg) brightness(97%) contrast(91%);
+}
+
+.offcanvas {
+    background-color: #121212;
+}
+
+.offcanvas-header #logo {
+    width: 95px;
+}
+
+/*--------------------Menu Style----------------------------------------*/
+#header .nav-item {
+    padding-top: 1.35rem;
+    padding-bottom: 1.35rem;
+}
+
+#header .nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/*menu reaction on hover focus active*/
+#header .nav-link:hover, 
+#header .nav-link:focus, 
+#header .nav-link:active,
+#header .nav-link.active {
+    color: #929497;
+}
